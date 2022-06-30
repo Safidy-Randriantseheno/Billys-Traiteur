@@ -1,0 +1,442 @@
+@media screen and (min-width: 500px) {
+    body{
+        margin: 0 5%;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: beige;
+        background-position: center;
+    }
+
+    #search{
+        width: 50%;
+        border-radius: 20px;
+        padding: 0.5%;
+    }
+
+    .titre{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:   rgba(252, 14, 125, 0.479);
+        padding: 20px;
+        font-size: 300%;
+        margin: 7%;
+        margin-left:390px;
+    }
+
+    .fond1{ 
+        padding: 50px;
+        padding-top: 1vh;
+        padding-left: 1vw;
+        background-image: url(269587828_428357125617434_1212531013225033648_n.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 91%;
+        background-position: center;
+        border-radius: 20px;
+        
+    }
+
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+    }
+    a{
+        color: rgb(10, 10, 10);
+        border:solid  ;
+        padding: 3px 70px;
+        margin-left: 5%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 20px;
+    }
+    a:hover{
+        border: solid chocolate ;
+        
+    }
+    .servic{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .élément1{
+        margin: 15px;
+        width: 10px;
+        height: 400px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        position: relative;
+        padding-left: 500px;
+        overflow: hidden;
+        flex-basis: 50vw;
+        background-image: url(fondants\ au\ chocolat.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+    }
+    .élément1 img{
+        width: 100%;
+        height: 100%;
+        left: 100%;
+        position: absolute;
+        right: 0px;
+        animation: slider 4s infinite;
+        animation-direction: normal;
+    }
+    .image0 img {
+        animation-delay: -1s;
+    }
+    .image1 img {
+        animation-delay: 1s;
+    }
+    .image2 img 
+    {
+        animation-delay: 2s;
+    }
+    @keyframes slider{
+        0%{
+            left: 100%;
+        }
+        10%{
+            left: 0%;
+        }
+        25%{
+            left: 0%;
+        }
+        35%{
+            left: -100%;
+        }
+        100%{
+            left: -100%;
+        }
+    }
+    .élément2{
+        margin: 15px;
+        width: 50px;
+        height: 400px;
+        padding-left: 2vh;
+        flex-basis: 250vw;
+        
+        border-radius:  20px;
+    }
+    li{
+        margin-left: 50px;
+    }
+    p{
+        padding-top: 10px;
+        font-size: 100%;
+    }
+    h6{
+        color: rgba(252, 14, 125, 0.774);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 50px;
+        font-size: 150%;
+    }
+    .activité{
+        margin-left:2vw ;
+        padding: 50px;
+        padding-top: 1vh;
+        padding-left: 1vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 91%;
+        background-position: center;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .activité img{
+        width: 30vw;
+        padding: 20px;
+        margin-left: 6%;
+        border-radius: 100px;
+       
+    }
+    .act1{
+        flex-basis: 30vw;
+    }
+    .act2{
+        flex-basis: 40vw;
+        margin-top: 3vh;
+    }
+    h1{
+        font-size: 200%;
+        color: rgba(252, 14, 125, 0.603);
+    }
+    ul{
+        font-size: 150;
+        padding: 20px;
+    }
+    h2{
+        color: chocolate;
+    }
+    .activité2{
+        padding: 50px;
+        margin-left:2vw ;
+        margin-top: 1vh;
+        padding-left: 1vw;
+        width: 91%;
+        background-position: center;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+    } 
+    .activité2 img{
+        width: 25vw;
+        padding: 20px;
+        margin-left: 6%;
+        border-radius: 100px;
+       
+    }
+    .act1{
+        margin: 2%;
+        width: 50vw;
+        height: 50vh;
+        flex-basis: 20vw;
+    }
+    img{
+        border-radius: 20px;
+    }
+    
+    .act3{
+        margin: 2%;
+        flex-basis: 20vw;
+    }
+    p2{
+        color:  rgba(252, 14, 125, 0.774);
+        font-size: 20px;
+    }
+    .activité3{
+        margin-left:2vw ;
+        padding: 50px;
+        margin-top: 2vh;
+        padding-left: 1vw;
+        width: 80%;
+        background-position: center;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .activité3 img{
+        width: 25vw;
+        margin-left: 6%;
+        border-radius: 200px;
+       
+    }
+    .act1{
+        flex-basis: 30vw;
+    }
+    .act2{
+        flex-basis: 40vw;
+        margin-left: 7vw;
+    }
+    h1{
+        font-size: 200%;
+        color: rgba(252, 14, 125, 0.603);
+    }
+    h3{
+        font-size: 100%;
+        color: rgba(252, 14, 125, 0.603);
+    }
+
+}
+@media screen and (max-width : 500px) {
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: beige;
+    }
+    #search{
+        width: 72%;
+        font-size: 120%;
+        border-radius: 20px;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;        
+    }
+    .titre{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:   rgb(97, 70, 85) ;
+        padding: 0px;
+        font-size: 300%;
+    }
+    a{
+        color: black;
+        border:solid rgba(2, 2, 2, 0.74) ;
+        padding: 1px 10px;
+        margin-left: 0%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 20px;
+        font-size: 120%;
+    }
+    .servic{
+        display: flex;
+        flex-direction: column;
+    }
+    .élément1{
+        flex-basis: 100vw;
+        background-image: url(fondants\ au\ chocolat.jpeg);
+        position: relative;
+        padding-left:350px;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+    .élément1 img{
+        width: 100%;
+        height: 100%;
+        left: 600%;
+        position: absolute;
+        right: 0px;
+        animation: slider 4s infinite;
+        animation-direction: normal;
+       ;
+    }
+    .image0 img {
+        animation-delay: -1s;
+    }
+    .image1 img {
+        animation-delay: 1s;
+    }
+    .image2 img 
+    {
+        animation-delay: 2s;
+    }
+    @keyframes slider{
+        0%{
+            left: 100%;
+        }
+        10%{
+            left: 0%;
+        }
+        25%{
+            left: 0%;
+        }
+        35%{
+            left: -100%;
+        }
+        100%{
+            left: -100%;
+        }
+    }
+    .élément2{
+        margin: 15px;
+        height: 400px;
+        padding-left: 0vh;
+        border-radius:  20px;
+        flex-basis: 50vw;
+
+    }
+    li{
+        margin-left: 50px;
+        font-size: 110%;
+    }
+    p1{
+        padding-top: 2vh;
+        font-size: 120%;
+    }
+    p{
+       
+        font-size: 130%;
+        padding-top: 6vh
+        
+    }
+    h6{
+        color: brown;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 50px;
+        font-size: 150%;
+    }
+    
+    .activité{
+        margin-left:2vw ;
+        width: 100%;
+        background-position: center;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .activité img{
+        width: 95vw;
+        border-radius: 100px;
+       
+    }
+    .act1{
+        flex-basis: 30vw;
+    }
+    .act2{
+        flex-basis: 40vw;
+        margin-top: 3vh;
+    }
+    h1{ 
+        margin-top: 25vh;
+        font-size: 220%;
+        color: rgba(252, 14, 125, 0.603);
+    }
+    ul{
+        font-size: 150;
+        padding: 20px;
+    }
+    h2{
+        color: chocolate;
+    }
+    .activité2{
+        padding-left: 1vw;
+        width: 100%;
+        background-position: center;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+    } 
+    .activité2 img{
+        width: 95vw;
+        border-radius: 100px;
+       
+    }
+  
+
+    img{
+        border-radius: 20px;
+    }
+    
+    .act3{
+        margin: 2%;
+        flex-basis: 20vw;
+    }
+    p2{
+        color:  rgba(252, 14, 125, 0.774);
+        font-size: 25px;
+    }
+    .activité3{
+        margin-left:2vw ;
+        padding: 50px;
+        margin-top: 2vh;
+        padding-left: 1vw;
+        width: 80%;
+        background-position: center;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .activité3 img{
+        width: 95vw;
+        border-radius: 200px;
+       
+    }
+    .act1{
+        flex-basis: 30vw;
+    }
+    .act2{
+        flex-basis: 40vw;
+        margin-left: 7vw;
+    }
+    h1{
+        font-size: 220%;
+        color: rgba(252, 14, 125, 0.603);
+    }
+    h3{
+        font-size: 110%;
+        color: rgba(252, 14, 125, 0.603);
+    }
+}
